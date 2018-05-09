@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render <App/> 1`] = `
+<div
+  className="sc-bwzfXH bRhOHE"
+>
+  <div
+    className="sc-htpNat hFgGyf"
+  >
+    <h1
+      className="sc-bxivhb bOYIrQ"
+    >
+      Counter
+    </h1>
+    <span
+      className="sc-ifAKCX cicvxl"
+    >
+      value: 
+      0
+    </span>
+    <div
+      className="sc-EHOje iafsfZ"
+    >
+      <button
+        className="sc-bdVaJa ghfaWw"
+        onClick={[Function]}
+      >
+        add:3
+      </button>
+       
+      <button
+        className="sc-bdVaJa ghfaWw"
+        onClick={[Function]}
+      >
+        increment
+      </button>
+    </div>
+  </div>
+</div>
+`;
