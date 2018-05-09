@@ -1,4 +1,6 @@
-# New Arch
+# WithReduxMassive
+
+巨大な Redux アプリケーションの例
 
 ## 採用したもの
 

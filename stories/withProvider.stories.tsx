@@ -1,5 +1,5 @@
 import { storiesOf } from "@storybook/react"
 import * as React from "react"
-// import NewSimple2 from "../src/client/newSimple2"
+import WithProvider from "../src/withProvider"
 
-// storiesOf("NewSimple", module).add("to Storybook", () => <NewSimple2 />)
+storiesOf("WithProvider", module).add("to Storybook", () => <WithProvider />)

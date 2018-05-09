@@ -1,10 +1,14 @@
 # Typescript redux patterns
 
+WIP
+
 ## Run
 
 ```
 yarn storybook
 ```
+
+See storybook http://jolly-wescoff-2811e4.netlify.com
 
 ## Stack
 

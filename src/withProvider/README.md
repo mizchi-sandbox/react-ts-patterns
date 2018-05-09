@@ -1,3 +1,5 @@
-# New Simple
+# with Provider
 
-怠惰な人間向け
+React v16 の Provider を使ったシンプルなパターン
+
+WIP
