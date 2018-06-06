@@ -1,6 +1,6 @@
 import { applyMiddleware, createStore } from "redux"
 import loggerMiddleware from "redux-logger"
-import thunkMiddleware from "redux-thunk"
+import thunkMiddleware, { ThunkAction } from "redux-thunk"
 
 const INCREMENT = "counter/increment"
 
@@ -11,6 +11,12 @@ type Increment = {
 export function increment(): Increment {
   return {
     type: INCREMENT
+  }
+}
+
+export function incrementAsync(): ThunkAction<any, any, any, Increment> {
+  return dispatch => {
+    dispatch(increment())
   }
 }
 
