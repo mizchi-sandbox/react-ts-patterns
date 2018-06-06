@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "noEmit": true,
     "baseUrl": "./src/",
     "outDir": "./dist/",
     "sourceMap": true,
